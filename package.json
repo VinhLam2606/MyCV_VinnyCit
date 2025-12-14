@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://VinhLam2606.github.io/VinnyCit",
+  "homepage": "https://VinhLam2606.github.io/MyCV_VinnyCit",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

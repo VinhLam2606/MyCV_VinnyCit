@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import { portfolioData } from './data';
+// 👇 1. Import hình ảnh từ thư mục assets vào code
+// (Đảm bảo bạn đã để file me.jpg vào trong thư mục src/assets/)
+import avatarImg from './assets/me.jpg';
 
 function App() {
   const [mode, setMode] = useState('ai');
@@ -24,9 +27,9 @@ function App() {
           <div className="relative inline-block mb-6">
             <div className={`w-32 h-32 rounded-full overflow-hidden border-4 shadow-2xl ${mode === 'ai' ? 'border-blue-500' : 'border-emerald-500'}`}>
               
-              {/* 👇 ĐÃ SỬA: Dùng trực tiếp đường dẫn ảnh tại đây */}
+              {/* 👇 2. ĐÃ SỬA: Dùng biến avatarImg đã import ở trên */}
               <img 
-                src="/images/me.jpg" 
+                src={avatarImg} 
                 alt="Lam The Vinh" 
                 className="w-full h-full object-cover bg-gray-300" 
               />
