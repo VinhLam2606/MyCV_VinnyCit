@@ -5,7 +5,6 @@ export const portfolioData = {
     email: "lamthevinh71vt@gmail.com",
     github: "https://github.com/VinhLam",
     education: "Can Tho University - GPA: 3.74/4",
-    // Đảm bảo file ảnh nằm tại: public/images/me.jpg
     avatar: "/images/me.jpg", 
   },
   ai: {
@@ -67,6 +66,28 @@ export const portfolioData = {
         tech: "C#, ASP.NET, JavaScript, SQL Server",
         desc: "Secure web registration form built on ASP.NET, featuring login verification and robust input validation.",
         link: "https://github.com/gnout1912/GZONE"
+      }
+    ]
+  },
+  fullstack: {
+    role: "Fullstack Web Developer",
+    objective: "Versatile Web Developer bridging the gap between traditional PHP systems and modern JS frameworks. Experienced in building scalable e-commerce solutions using Vue.js, Node.js, and SQL databases.",
+    skills: [
+      "Vue.js", "Node.js", "PHP", 
+      "PostgreSQL", "MySQL", "TanStack Query", "REST API"
+    ],
+    projects: [
+      {
+        name: "VTJersey Store",
+        tech: "Vue.js, Node.js, PostgreSQL, TanStack Query",
+        desc: "Modern e-commerce platform for sportswear featuring a high-performance frontend, server-side REST APIs, and robust state management.",
+        link: "https://github.com/VinhLam2606/VT_Jersey.git"
+      },
+      {
+        name: "VuongTinhSneaker",
+        tech: "PHP, MySQL, Bootstrap, HTML/CSS",
+        desc: "Classic sneaker e-commerce website built with native PHP. Features include user authentication, product management, and order processing.",
+        link: "https://github.com/VinhLam2606/VuongTinhSneaker.git"
       }
     ]
   }
